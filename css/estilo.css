@@ -33,6 +33,16 @@
   justify-items: end;
   align-content: center;
   gap: 20px;
+  position: relative;
+}
+span {
+  width: 60px;
+  height: 4px;
+  display: block;
+  background-color: red;
+  position: absolute;
+  top: 30px;
+  right: -30px;
 }
 .lado-esquerdo a {
   background-color: #ee2211;
