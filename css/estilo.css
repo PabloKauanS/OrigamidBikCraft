@@ -2,10 +2,10 @@
   max-width: 1000px;
   margin: 60px auto;
 }
-.centro > img {
+header > img {
   margin: 0 auto;
 }
-.centro > ul {
+nav > ul {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -21,7 +21,7 @@
   border-radius: 4px;
   text-transform: uppercase;
 }
-.grid-central {
+.grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -52,7 +52,7 @@ span {
   color: white;
   border-radius: 4px;
 }
-.grid-central > h2 {
+.grid > h2 {
   text-align: end;
   margin: auto 40px;
   color: #c6c6c6;
