@@ -1,6 +1,6 @@
 .centro {
-  max-width: 1000px;
-  margin: 60px auto;
+  max-width: 62.5rem;
+  margin: 3.75rem auto;
 }
 header > img {
   margin: 0 auto;
@@ -9,12 +9,12 @@ nav > ul {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 50px;
-  margin: 50px 0px 100px 0px;
+  gap: 3.12rem;
+  margin: 3.125rem 0px 100px 0px;
 }
 .centro ul li a {
   background-color: white;
-  padding: 15px 30px;
+  padding: 0.93rem 1.87rem;
   text-decoration: none;
   display: block;
   color: black;
@@ -26,27 +26,27 @@ nav > ul {
   grid-template-columns: 1fr 1fr;
 }
 .lado-esquerdo {
-  padding: 40px;
+  padding: 2.5rem;
   text-align: end;
   display: grid;
   background-color: white;
   justify-items: end;
   align-content: center;
-  gap: 20px;
+  gap: 1.25rem;
   position: relative;
 }
 span {
-  width: 60px;
-  height: 4px;
+  width: 3.75rem;
+  height: 0.25rem;
   display: block;
   background-color: red;
   position: absolute;
-  top: 30px;
-  right: -30px;
+  top: 1.87rem;
+  right: -1.87rem;
 }
 .lado-esquerdo a {
   background-color: #ee2211;
-  padding: 15px 25px;
+  padding: 0.93rem 1.56rem;
   text-transform: uppercase;
   text-decoration: none;
   color: white;
@@ -54,20 +54,20 @@ span {
 }
 .grid > h2 {
   text-align: end;
-  margin: auto 40px;
+  margin: auto 2.5rem;
   color: #c6c6c6;
-  font-size: 64px;
+  font-size: 4rem;
   text-transform: uppercase;
 }
 .vantagens {
-  padding: 50px;
+  padding: 3.12rem;
   background-color: white;
 }
 .vantagens li {
   display: grid;
   align-items: center;
-  gap: 10px 20px;
-  padding: 20px;
+  gap: 0.62rem 1.25rem;
+  padding: 1.25rem;
   grid-template-columns: auto 1fr;
 }
 .vantagens li p {
@@ -75,6 +75,6 @@ span {
 }
 .roda-pe {
   background: white;
-  padding: 40px;
+  padding: 2.5rem;
   text-align: center;
 }
