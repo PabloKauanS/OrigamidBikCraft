@@ -18,12 +18,17 @@ nav > ul {
   text-decoration: none;
   display: block;
   color: black;
+  border: transparent solid 0.125rem;
   border-radius: 4px;
   text-transform: uppercase;
+}
+.centro ul li a:hover {
+  border: #ee2211 0.125rem solid;
 }
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  background: url(/img/onda.svg);
 }
 .lado-esquerdo {
   padding: 2.5rem;
@@ -52,6 +57,9 @@ span {
   color: white;
   border-radius: 4px;
 }
+.lado-esquerdo a:hover {
+  background: #900;
+}
 .grid > h2 {
   text-align: end;
   margin: auto 2.5rem;
@@ -69,6 +77,12 @@ span {
   gap: 0.62rem 1.25rem;
   padding: 1.25rem;
   grid-template-columns: auto 1fr;
+}
+.vantagens li:nth-child(odd) {
+  background: #f7f7f7;
+}
+.vantagens li:hover {
+  border-left: #ee2211 solid 0.25rem;
 }
 .vantagens li p {
   grid-column: 2;
