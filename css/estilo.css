@@ -28,7 +28,10 @@ nav > ul {
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background: url(/img/onda.svg);
+}
+.grid img{
+  object-fit: cover;
+  height: 100%;
 }
 .lado-esquerdo {
   padding: 2.5rem;
@@ -40,7 +43,8 @@ nav > ul {
   gap: 1.25rem;
   position: relative;
 }
-span {
+.lado-esquerdo h1::before {
+  content: "";
   width: 3.75rem;
   height: 0.25rem;
   display: block;
@@ -66,6 +70,7 @@ span {
   color: #c6c6c6;
   font-size: 4rem;
   text-transform: uppercase;
+  background: url("/img/onda.svg");
 }
 .vantagens {
   padding: 3.12rem;
